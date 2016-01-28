@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/result"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/message_game_win"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/result_text_size" />
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/egg_size"
+        android:layout_height="@dimen/egg_size"
+        android:contentDescription="@drawable/eggcrack"
+        android:src="@drawable/eggcrack" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_quit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dialog_margin"
+            android:background="@drawable/button_red"
+            android:padding="@dimen/dialog_padding"
+            android:text="@string/button_quit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_play"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dialog_margin"
+            android:background="@drawable/button_green"
+            android:padding="@dimen/dialog_padding"
+            android:text="@string/button_play"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nuôi Cá</string>
+    <string name="provider_number">8675</string>
+    <string name="message_content">VMGTVI NUOICA NAP</string>
+    <string name="facebook_app_id">462518297243498</string>
+    <string name="button_yes">Có</string>
+    <string name="button_no">Không</string>
+    <string name="max">Tối đa</string>
+    <string name="title_quit_game">Xác nhận thoát game?</string>
+    <string name="message_quit_game">Bạn có muốn thoát trò chơi không?</string>
+    <string name="title_get_coin">Xác nhận gửi tin nhắn?</string>
+    <string name="message_get_coin">Bạn có muốn mua thêm 10.000 xu với giá 10.000 vnđ không?</string>
+    <string name="message_successfull">Tin nhắn gửi thành công! Bạn đã nhân được 10.000 xu!</string>
+    <string name="message_unsuccessfull">Tin nhắn gửi không thành công! Bạn chưa nhân được 10.000 xu!</string>
+    <string name="message_game_win" formatted="false">Không thể tin nổi!\nThật là tuyệt vời!\nBạn đã vượt qua cấp độ %1$s!</string>
+    <string name="message_game_over">Cá vàng trong bể chết hết rồi!\nBạn có muốn chơi lại không?</string>
+    <string name="button_quit">Thoát</string>
+    <string name="button_replay">Chơi lại</string>
+    <string name="button_play">Chơi tiếp</string>
+    <string name="button_skip">Bỏ qua</string>
+    <string name="level" formatted="false">Cấp độ: %1$s</string>
+
+    <string-array name="message_guide">
+        <item>Bạn sẽ phải chạm vào màn hình để cho cá vàng ăn, thu nhặt vật phẩm hoặc tấn công thủy quái. Khi bạn tích đủ xu bạn có thể nâng cấp thức ăn dinh dưỡng, súng thần công hoặc mua trứng cá.</item>
+        <item>Bạn sẽ phải duy trì số cá vàng trong bể, chúng sẽ mang lại xu cho bạn. Nếu bạn làm chết hết chúng, bạn sẽ thua cuộc.</item>
+        <item>Hãy nâng cấp thức ăn dinh dưỡng để cá của bạn nhanh lớn hơn và khỏe mạnh hơn!</item>
+        <item>Nếu thấy con thủy quái này xuất hiện thì bạn hãy bấm liên tục vào để tiêu diệt nó.</item>
+        <item>Hãy nâng cấp súng thần công để tiêu diệt thủy quái dễ dàng hơn!</item>
+        <item>Hãy mua trứng cá khi bạn có đủ xu! Khi đó bạn sẽ nhận được 1 con cá mới và lên 1 cấp độ mới.</item>
+        <item>Hãy bấm vào mua xu nếu bạn bị hết xu bất ngờ và muốn nạp thêm xu!</item>
+        <item>Chúc các bạn có những giây phút chơi game thoải mái sau những giờ học tập và làm việc căng thẳng!</item>
+    </string-array>
+    <string-array name="message_title">
+        <item>Cách chơi</item>
+        <item>Cá vàng</item>
+        <item>Thức ăn dinh dưỡng</item>
+        <item>Thủy quái</item>
+        <item>Súng thần công</item>
+        <item>Trứng cá</item>
+        <item>Nạp xu</item>
+        <item>Xin cảm ơn!</item>
+    </string-array>
+
+</resources>
